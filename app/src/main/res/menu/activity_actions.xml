@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Search / will display always -->
+    <item android:id="@+id/action_search"
+        android:icon="@drawable/search1"
+        android:title="@string/action_search"
+        android:showAsAction="ifRoom"/>
+
+    <!-- help-->
+    <item android:id="@+id/action_help"
+        android:icon="@drawable/help"
+        android:title="@string/action_help"
+        android:showAsAction="never"/>
+
+    <!--Profile-->
+    <item android:id="@+id/action_profile"
+        android:icon="@drawable/profile"
+        android:title="@string/action_profile"
+        android:showAsAction="never"/>
+
+    <!--Status-->
+    <item android:id="@+id/action_status"
+        android:icon="@drawable/status1"
+        android:title="@string/action_status"
+        android:showAsAction="never"/>
+
+    <!--Account-->
+    <item android:id="@+id/action_account"
+        android:icon="@drawable/account"
+        android:title="@string/action_account"
+        android:showAsAction="never"/>
+
+    <!--Notifications-->
+    <item android:id="@+id/action_notification"
+        android:icon="@drawable/notification"
+        android:title="@string/action_notification"
+        android:showAsAction="never"/>
+
+    <!--Contacts-->
+    <item android:id="@+id/action_contacts"
+        android:icon="@drawable/contacts"
+        android:title="@string/action_contacts"
+        android:showAsAction="never"/>
+
+</menu>
